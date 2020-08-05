@@ -4,4 +4,4 @@
 
 - invalid userName
 
-![GitHub Logo](/images/INVALID-username.png)
+![image](./images/INVALID-username.png)
