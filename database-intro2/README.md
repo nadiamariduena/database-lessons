@@ -1,7 +1,11 @@
 ## DATABASE intro 2
 
-# sending requests with POSTMAN
+_sending requests with POSTMAN_
 
 - invalid userName
 
-![image](./images/INVALID-username.png)
+![image1](./images/INVALID-username.png)
+
+- Post method
+
+![image2](./images/POST-method.png)
