@@ -2,10 +2,8 @@
 
 _sending requests with POSTMAN_
 
-- invalid userName
+- Post method
 
 ![image1](./images/INVALID-username.png)
-
-- Post method
 
 ![image2](./images/POST-method.png)
