@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "id": "33",
+      "title": "1 like chocolate"
+    },
+    {
+      "id": "33",
+      "title": "24 i like chocolate con panela en polvo"
+    },
+    {
+      "id": "33",
+      "title": "drink i like chocolate con panela en polvo"
+    }
+  ],
+  "user": {
+    "name": "melissa"
+  },
+  "num": 2
+}
