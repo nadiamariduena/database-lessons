@@ -9,4 +9,4 @@ _sending requests with POSTMAN_
 https://expressjs.com/en/guide/writing-middleware.html - source!
 [Express](https://expressjs.com/en/guide/writing-middleware.html)
 
-![image1](./img/express-mw.png)
+![image1](./img/middleware.jpg)
