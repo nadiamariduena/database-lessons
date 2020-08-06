@@ -42,31 +42,37 @@ https://expressjs.com/en/guide/writing-middleware.html
 //
 //
 // 1.)__ require express from the library
-
 const express = require("express");
-//
+
 // 2.)__ assign express a variable to start using it
 const app = express();
 
 // 3.)__  use the port that lives in the processor environment OR use the 3000
-//
 const PORT = process.env.PORT || 3000;
 
 /* 
-
 Because I don't know if the server is going to be 3000 once I upload it to a real SERVER, 
- to prevent the APP from breaking I have to type the following:  const PORT = process.env.PORT || 3000;
-
-
-
+to prevent the APP from breaking I have to type the following:  
  
+const PORT = process.env.PORT || 3000;
+
 */
+//
+//
+//
+
+// app.get      - this is the request handling
+//  "/"         - this is the Route handling
 
 app.get("/", (req, res) => {
   console.log("Home");
-  res.send("Home");
+  res.send("Home"); //     ('GET request to the homepage')
 });
 
+// Route paths:    https://expressjs.com/en/guide/routing.html
+
+//
+//
 //
 //
 //
@@ -84,14 +90,26 @@ app.listen(PORT, () => {
   console.log(`server listen on http://localhost:${PORT}`);
 });
 
+//
+//
+//
+//
+//
+//
 /*
+ 
 
 
-// 
+
+
 
 List of HTTP status codes
-// 
+
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+
+
+
 // 
 // 
 // ------
