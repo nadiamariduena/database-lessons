@@ -32,7 +32,7 @@ app.use(cors());  in this form means that i will use "Cross-origin resource shar
 
  Its useful for some apps for example when creating projects with API's
 
- *******        to see how you choose 'how to make visible to few or globally' , go to line 115     ***********
+ *******        to see how you choose 'how to make visible to few or globally' , go to line 71    ***********
  
  */
 //
@@ -68,7 +68,7 @@ app.get("/", (req, res) => {
 //
 //
 // the below is a copy paste from the page:    https://www.npmjs.com/package/cors
-// ** to make it visible to just few... specific or globally
+// ** to make it visible to just few... specific or globally check the line below
 // app.get("/products/:id", cors(), function (req, res, next) {
 app.get("/products/:id", function (req, res, next) {
   res.json({ msg: "This is CORS-enabled for a Single Route" });
