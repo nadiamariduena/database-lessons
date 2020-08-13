@@ -5,3 +5,6 @@
 
 - MIDDLEWARE
   ![image1](./img/middleware.jpg)
+
+* MONGO (introduction to Databases with mongo)
+  ![image2](./img/imageTwo.jpg)
