@@ -28,8 +28,7 @@
 <li>result: {'ok': 1}</li>
 </ul>
 
-- preview
-  ![image2](./images/img-exp1.jpg)
+![image2](./images/img-exp1.jpg)
 
 ### create a New DATABASE
 
@@ -58,5 +57,4 @@
 
 </ul>
 
-- preview
-  ![image2](./images/img-exp2.jpg)
+![image2](./images/img-exp2.jpg)
