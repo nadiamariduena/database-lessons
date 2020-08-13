@@ -39,9 +39,8 @@
 <li>type the following to create a new Collection of data:  db.createcollection('users')</li>
 <li>type: show collections </li>
 <li>result:  users</li>
-<li>users is the db you just created, if you have more dbs it will show all you have</li>
-
 </ul>
+<p>users is the db you just created, if you have more dbs it will show all you have</p>
 
 ### go to the VS and make an array like in the image: then copy and paste it in the terminal, this is the vs way of doing it otherwise you have the super easy way in MONGO.
 
