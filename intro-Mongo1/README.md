@@ -17,7 +17,7 @@
 <li>type the following to create a database, dont forget that Test is the name i give to it, 'use' is the command: use Test</li>
 <li>result: switched to db Test</li>
 <li>type the following again to know where you are at: db </li>
-<li>show dbs</li>
+<li>type the following: show dbs</li>
 </ul>
 
 <p>Repeat the steps</p>
