@@ -13,12 +13,14 @@
 ### create DATABASE
 
 <ul>
-<li>the following to know where you are at:   show dbs</li>
-<li>the following will create a database, Test is the name i give to it, 'use' is the command: use Test</li>
+<li>type the following to know where you are at:   show dbs</li>
+<li>type the following to create a database, dont forget that Test is the name i give to it, 'use' is the command: use Test</li>
 <li>result: switched to db Test</li>
-<li>type 'db' to know where you are at</li>
+<li>type the following 'db' to know where you are at</li>
 <li>show dbs</li>
 </ul>
+
+<p>Repeat the steps</p>
 
 ### to remove
 
@@ -42,7 +44,7 @@
 </ul>
 <p>users is the db you just created, if you have more dbs it will show all you have</p>
 
-### go to the VS and type the following like in the image: then copy and paste it in the terminal, this is the vs way of doing it otherwise you have the super easy way in MONGO.
+### Now go to the VS (visual studio) and type the following like in the image: then copy and paste it in the terminal, this is the vs way of doing it otherwise you have the super easy way in MONGO.
 
 - VS version
   ![image1](./images/imageZero.jpg)
