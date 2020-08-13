@@ -24,7 +24,7 @@
 
 <ul>
 <li>type 'dbs' to know what databases you have, if it show 0.000GB for all the three options is that its empty</li>
-<li>type db.dropDatabase();    to remove</li>
+<li>type the following to remove:   db.dropDatabase();</li>
 <li>result: {'ok': 1}</li>
 </ul>
 
@@ -33,12 +33,13 @@
 ### create a New DATABASE
 
 <ul>
-<li>use newTest</li>
+<li>type the following to create a new db:  use newTest</li>
 <li>result: switched to db newTest</li>
 <li>type 'db' to know where you are at</li>
 <li>type the following to create a new Collection of data:  db.createcollection('users')</li>
 <li>type: show collections </li>
 <li>result:  users</li>
+<li>users is the db you just created, if you have more dbs it will show all you have</li>
 
 </ul>
 
