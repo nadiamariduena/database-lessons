@@ -42,7 +42,7 @@
 </ul>
 <p>users is the db you just created, if you have more dbs it will show all you have</p>
 
-### go to the VS and make an array like in the image: then copy and paste it in the terminal, this is the vs way of doing it otherwise you have the super easy way in MONGO.
+### go to the VS and type the following like in the image: then copy and paste it in the terminal, this is the vs way of doing it otherwise you have the super easy way in MONGO.
 
 - VS version
   ![image1](./images/imageZero.jpg)
