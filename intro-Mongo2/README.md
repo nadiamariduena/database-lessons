@@ -15,7 +15,8 @@
 it should look like this:
 
 </p>
-  ![preview1](./img/dependencies.jpg)
+
+![preview2](./img/dependencies.jpg)
 
 #### Initialize Mongo and the compass
 
