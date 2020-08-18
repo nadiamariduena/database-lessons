@@ -56,7 +56,9 @@ it should look like this:
 
 </ul>
 
-### go to the mongo compass and create the database for the employees with the respective collection
+## go to the mongo compass
+
+### create the database for the employees with the respective collection.
 
 ![preview2](./img/img2.jpg)
 
