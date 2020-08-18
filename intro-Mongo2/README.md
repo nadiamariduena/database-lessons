@@ -21,9 +21,7 @@ Due to its architectural style, REST helps in consuming minimal bandwidth. This 
 https://www.zestard.com/ - Read More!
 [zestard](https://www.zestard.com/blog/rest-api-benefits/)
 
-
 ![preview2](./img/REST_API.jpg)
-
 
 ## Get started
 
@@ -61,3 +59,18 @@ it should look like this:
 ### go to the mongo compass and create the database for the employees with the respective collection
 
 ![preview2](./img/img2.jpg)
+
+#### Start using POSTMAN
+
+<p>Create  an object with Data</p>
+
+<ul>
+
+<li>go to the body</li>
+<li>then to type on RAW</li>
+<li>select JSON</li>
+<li>create the data like you do it in a normal json file </li>
+
+</ul>
+
+![preview2](./img/postman1.jpg)
