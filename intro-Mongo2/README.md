@@ -67,7 +67,7 @@ it should look like this:
 <ul>
 
 <li>go to the body</li>
-<li>then to type on RAW</li>
+<li>then type on "RAW"</li>
 <li>select JSON</li>
 <li>create the data like you do it in a normal json file </li>
 
