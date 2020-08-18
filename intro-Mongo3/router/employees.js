@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
+// i will do a curly brackets because i am grabbing the whole file and,
+//  i need to use one specific function out of that file
+
 /*
 const EmployeesData = require("../module/employeesModule");
 
@@ -11,6 +14,7 @@ const employeesDataSchema = new mongoose.Schema({
 
  */
 const EmployeesData = require("../module/employeesModule");
+const { getEmployee } = require("../controllers/employeeController");
 /* 
 
                                              ***    1 ROUTE  ***
@@ -90,35 +94,17 @@ router.post("/", async (req, res) => {
 // UPDATE aka PUT http://localhost:3000/employees/:name -->  update employee by name
 // DELETE http://localhost:3000/employees/:name -->  delete employee by name
 
-// middleware
-async function getEmployee(req, res, next) {
-  let employee;
-  try {
-    /*
-      //employee = await EmployeesData.findById(req.params.id);
+// ---------------------------------------
+/*
 
-       instead of the name that you type in the localhost,
-       to find an employees name, here you find it with an ID, don't forget to change it in line 119:
 
-      */
-    // employee = await EmployeesData.find({ name: req.params.name });
 
-    employee = await EmployeesData.findOne({ name: req.params.name });
-    if (employee == null)
-      //because its just one thing happening, you can avoid the curly brackets in the IF
-      return res.status(404).json({ message: "employee NOT Found" });
-  } catch (err) {
-    res.status(500).json({
-      message: err.message,
-    });
-  }
-  console.log(employee);
-  //res.employee = employee[0];
-  //   to solve the array problem:   res.employee = employee[0];
-  res.employee = employee;
-  next();
-}
 
+                                                     **      **
+
+
+
+*/
 // -----------
 //      GET
 // -----------
@@ -130,11 +116,55 @@ router.get("/:name", getEmployee, (req, res) => {
   // router.get("/:name", getEmployee, (req, res) => {
   res.status(200).json(res.employee);
 });
+
+//
+//
+//
+//
 // ------------------------
 // Update one
 // ------------------------
-router.patch("/:name", getEmployee, (req, res) => {});
+router.patch("/:name", getEmployee, async (req, res) => {
+  // res.send(res.employee.name);
+  // console.log(req.body);
 
+  if (req.body.name) {
+    res.employee.name != req.body.name;
+  }
+  if (req.body.age) {
+    res.employee.age != req.body.age;
+  }
+  if (req.body.add) {
+    res.employee.add != req.body.add;
+  }
+  /*
+  what the above means:
+  If ...you have in your request body:  req.body , any variable thats coming from the JSON like:
+  name
+  age
+  address  ,if you have that, ASSIGN the request: req.body.name age add    
+  TO THE response employee object: res.employee.add , 
+  that we are building AND then just save the changes:
+
+  await res.employee.save();
+  
+  the rest is just to let the user know if there is an error or it s successful
+  */
+  try {
+    await res.employee.save();
+    // tell the user about the change
+    res.status(200).json({ message: "Employee update", data: res.employee });
+  } catch (error) {
+    // 400 meaning: theres a user wrong situation, the user did something wrong.
+    res.status(400).json({
+      message: err.message,
+    });
+  }
+});
+//
+//
+//
+//
 // ------------------------
 //  Delete
 // ------------------------
@@ -148,4 +178,18 @@ router.delete("/:name", getEmployee, async (req, res) => {
     });
   }
 });
+
+// router.route("/").get(getAllEmployee).post(addNewEmployee);
+// router.route("/:name").get(getOneEmployee).patch(updateOneEmployee);
+
+/*
+
+
+
+
+                                  **
+
+
+ */
+
 module.exports = router;
