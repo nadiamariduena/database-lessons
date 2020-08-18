@@ -69,9 +69,16 @@ it should look like this:
 
 ## MONGO COMPASS | Create the database for the employees with the respective collection.
 
+<br>
+<br>
+
 ![preview2](./img/img2.jpg)
 
-#### Start using POSTMAN
+<br>
+<br>
+<br>
+
+### Start using POSTMAN
 
 <p>Create  an object with Data</p>
 
