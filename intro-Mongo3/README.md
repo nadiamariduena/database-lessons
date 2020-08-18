@@ -93,8 +93,6 @@ click on the image to watch the video:
 
 [<img src="./img/patch_update.gif">](https://www.youtube.com/watch?v=0SjgXI9XIkU)
 
-![preview2](./img/patch_update.gif)
-
 <br>
 <br>
 
