@@ -18,8 +18,8 @@ Due to its architectural style, REST helps in consuming minimal bandwidth. This 
 
 #### Text by Ritesh Vatwani
 
-https://www.zestard.com/ - Read More!
-[zestard](https://www.zestard.com/blog/rest-api-benefits/)
+https://www.zestard.com/blog/rest-api-benefits/ - Read More!
+[zestard](https://www.zestard.com/)
 
 ![preview2](./img/REST_API.jpg)
 
