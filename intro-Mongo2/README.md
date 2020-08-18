@@ -29,8 +29,7 @@ https://www.zestard.com/blog/rest-api-benefits/ - Read More!
 
 <br>
 <br>
-<br>
-<br>
+
 ## Get started
 
 ### Set up all you need to start the app, install all the dependencies such as:
@@ -61,7 +60,6 @@ it should look like this:
 
 <br>
 <br>
-<br>
 
 #### Initialize Mongo and the compass
 
@@ -75,7 +73,6 @@ it should look like this:
 </ul>
 <br>
 <br>
-<hr>
 
 ## MONGO COMPASS | Create the database for the employees with the respective collection.
 
