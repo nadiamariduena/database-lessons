@@ -52,6 +52,7 @@ it should look like this:
 <br>
 
 <hr>
+
 #### Initialize Mongo and the compass
 
 <ul>
@@ -66,9 +67,7 @@ it should look like this:
 <br>
 <hr>
 
-## Go to the MONGO COMPASS
-
-### Create the database for the employees with the respective collection.
+## MONGO COMPASS | Create the database for the employees with the respective collection.
 
 ![preview2](./img/img2.jpg)
 
