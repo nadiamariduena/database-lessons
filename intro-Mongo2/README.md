@@ -118,6 +118,7 @@ Read More:
 [restapitutorial](https://www.restapitutorial.com/lessons/httpmethods.html)
 
 <br>
+
 ![preview2](./img/http_methods.jpg)
 
 <br>
