@@ -27,6 +27,10 @@ https://www.zestard.com/blog/rest-api-benefits/ - Read More!
 <br>
 <hr>
 
+<br>
+<br>
+<br>
+<br>
 ## Get started
 
 ### Set up all you need to start the app, install all the dependencies such as:
@@ -42,6 +46,8 @@ https://www.zestard.com/blog/rest-api-benefits/ - Read More!
 
 </ul>
 
+<br>
+<br>
 <p>
 it should look like this:
 
@@ -52,6 +58,10 @@ it should look like this:
 <br>
 
 <hr>
+
+<br>
+<br>
+<br>
 
 #### Initialize Mongo and the compass
 
