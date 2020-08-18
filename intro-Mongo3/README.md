@@ -91,7 +91,7 @@ DB_URL=mongodb://localhost:27017/employees
 
 click on the image to watch the video:
 
-[<img src="http://www.google.com.au/images/nav_logo7.png">](https://www.youtube.com/watch?v=0SjgXI9XIkU)
+[<img src="./img/patch_update.gif">](https://www.youtube.com/watch?v=0SjgXI9XIkU)
 
 ![preview2](./img/patch_update.gif)
 
